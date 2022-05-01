@@ -32,7 +32,7 @@ jobs:
         with:
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           name: id_rsa # optional
-#           known_hosts: ${{ secrets.KNOWN_HOSTS }}
+          known_hosts: unnecessary #${{ secrets.KNOWN_HOSTS }}
 
 
       # Runs a set of commands using the runners shell
